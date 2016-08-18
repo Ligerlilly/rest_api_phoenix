@@ -35,8 +35,8 @@ config :phoenix, :stacktrace_depth, 20
 # Configure your database
 config :rest_api, RestApi.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
+  username: "",
+  password: "",
   database: "rest_api_dev",
   hostname: "localhost",
   pool_size: 10
